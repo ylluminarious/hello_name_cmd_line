@@ -5,6 +5,6 @@ task :build do
     environment.append_path "rb"
  
     File.open("compiled.js", "w+") do |output|
-        output << environment["compiled"].to_s
+        output << environment["main"].to_s
     end
 end
