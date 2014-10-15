@@ -1,0 +1,9 @@
+body {
+    background: gray;
+}
+#logo {
+    border-color: lightblue;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
