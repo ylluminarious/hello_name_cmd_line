@@ -4,7 +4,7 @@ task :build do
     environment = Opal::Environment.new
     environment.append_path "rb"
  
-    File.open("main.js", "w+") do |output|
-        output << environment["main"].to_s
+    File.open("compiled.js", "w+") do |output|
+        output << environment["compiled"].to_s
     end
 end
