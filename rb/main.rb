@@ -1,5 +1,5 @@
 require "opal"
-require "opal/browser"
+require "browser"
 
 prompt_for_name = Proc.new do
     name = $$.prompt("What's your name?")
